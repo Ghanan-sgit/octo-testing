@@ -17,6 +17,8 @@ Route::get('home', 'HomeController@index');
 
 Route::get('abc', 'abcController@index');
 
+Route::get('rfd', 'abcController@index');
+
 Route::get('prj', 'HomeContoller@index');
 
 Route::get('ghanan', 'abcController@index');

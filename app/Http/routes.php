@@ -19,6 +19,8 @@ Route::get('abc', 'abcController@index');
 
 Route::get('prj', 'HomeContoller@index');
 
+Route::get('ghanan', 'abcController@index');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
